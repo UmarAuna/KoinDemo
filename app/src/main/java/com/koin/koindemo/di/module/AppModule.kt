@@ -48,5 +48,3 @@ private fun provideRetrofit(
 
 private fun provideApiService(retrofit: Retrofit): ApiService =
     retrofit.create(ApiService::class.java)
-
-private fun provideApiHelper(apiHelper: ApiHelperImpl): ApiHelper = apiHelper
